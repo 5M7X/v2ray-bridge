@@ -8,7 +8,5 @@ services:
     command: ["v2ray","-config=/etc/v2ray/config.json"]
     ports:
       - 464:464
-      - 465:465
-      - 466:466
     volumes:
       - ./config:/etc/v2ray
